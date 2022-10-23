@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increver Equipa</title>
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 70%;
+        }
+  
+        th,
+        td {
+          text-align: center;
+          padding: 8px;
+        }
+  
+        tr:nth-child(even) {
+          background-color: #b174e4;
+        }
+        tr {
+            border-bottom: 2px solid #ddd;
+}
+      </style>
+</head>
+<body>
+        <div>
+            <h1>Inscreve a tua Equipa!</h1>
+            <label>Nome da equipa:</label>
+            <input type="text">
+            <br>
+            <Label for="range">Numero de jogadores:</Label> <br>
+            <input type="range" list=tickmarks min="0" max="10" value="0" step="1">
+            <datalist id="tickmarks">
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+<!-- Após o utilizador colocar o numero de jogadores, criar uma tabela com o numero de linhas respetivas -->
+        </datalist>
+            <br>    
+                <div>
+                    <table>
+                        <tr>
+                            <th>Nome</th>
+                            <Th>Lane</Th>
+                            <th>Idade</th>
+                            <th>Nacionalidade</th>
+                            <th>Champions</th>
+                        </tr>
+                        <tr>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                        </tr>
+                        <tr>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                        </tr>
+                        <tr>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                        </tr>
+                        <tr>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                        </tr>
+                        <tr>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                            <td><div contenteditable></div></td>
+                        </tr>
+                    </table>
+                </div>
+            <!-- Fazer tabela para preencher com infos dos jogadores. -->
+            <Label>Cor da equipa</Label> 
+            <input type="color">
+            <br>
+            <Label>Logo da equipa/Foto dos Jogadores:</Label> <br>
+            <input type="file">
+            <br>
+            <label>Confirmo que todos os jogadores são maiores de 16 anos.</label>
+            <input type="checkbox">
+            <br>
+            <label>Registar dados.</label>
+            <input type="button" value="OK">
+        </div>
+        
+    </body>
+    </html>
